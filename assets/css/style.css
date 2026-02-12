@@ -344,22 +344,25 @@ main {
   gap: 15px;
 }
 
+/* ===== FINAL AVATAR FIX ===== */
+
 .avatar-box {
   width: 140px;
   height: 140px;
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
-  background: var(--bg-gradient-onyx);
+  background: transparent; /* square background hatane ke liye */
 }
 
 .avatar-box img {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover;
-  display: block;
   border-radius: 50%;
+  display: block;
 }
+
 
 
 .info-content .name {
