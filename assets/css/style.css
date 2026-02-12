@@ -348,19 +348,19 @@ main {
   width: 140px;
   height: 140px;
   margin: 0 auto;
-  background: var(--bg-gradient-onyx);
   border-radius: 50%;
-  overflow: hidden;   
-  padding: 0;        
+  overflow: hidden;
+  background: var(--bg-gradient-onyx);
 }
 
 .avatar-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
   display: block;
+  border-radius: 50%;
 }
+
 
 .info-content .name {
   color: var(--white-2);
